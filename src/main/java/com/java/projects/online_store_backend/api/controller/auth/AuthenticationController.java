@@ -25,6 +25,8 @@ public class AuthenticationController {
             return ResponseEntity.ok().build();
         } catch (UserAlreadyExistsException ex) {
             return ResponseEntity.status(HttpStatus.CONFLICT).build();
+
+            
         }
     }
 
