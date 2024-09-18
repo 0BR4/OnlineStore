@@ -1,5 +1,6 @@
 package com.java.projects.online_store_backend.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
 @Entity
