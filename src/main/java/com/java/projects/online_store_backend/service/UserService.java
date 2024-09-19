@@ -10,8 +10,6 @@ import com.java.projects.online_store_backend.model.VerificationToken;
 import com.java.projects.online_store_backend.model.dao.LocalUserDAO;
 import com.java.projects.online_store_backend.model.dao.VerificationTokenDAO;
 import jakarta.transaction.Transactional;
-import jakarta.validation.Valid;
-import jdk.jshell.spi.ExecutionControl;
 import org.springframework.stereotype.Service;
 
 import java.sql.Timestamp;

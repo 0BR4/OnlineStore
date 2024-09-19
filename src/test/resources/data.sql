@@ -1,0 +1,3 @@
+-- Passwords are in the format: Password<UserLetter>123. Unless specified otherwise.
+-- Encrypted using https://www.javainuse.com/onlineBcrypt
+INSERT INTO local_user(email, first_name, last_name, password, username, email_verified) VALUES ('UserA@junit.com', 'UserA-FirstName', 'UserA-LastName', '$2a$10$MJ/3PIzUEZq6Ulinf18q4uYsZIc0dST/nhPqtjmiioVtHyhizsZ7u', 'UserA', true), ('UserB@junit.com', 'UserB-FirstName', 'UserB-LastName', '$2a$10$Zwa0y8qOVMWmXSqKP7iN/OKvXNSog51hK73tbi8spkiV6pRR4Thdm', 'UserB', false)
